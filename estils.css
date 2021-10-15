@@ -1,0 +1,87 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.pare {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+    .header {
+        background: black;
+        display: flex;
+        flex-flow: column nowrap;
+}
+        .menu {
+            background: #316B83;
+            display: flex;
+            flex-flow: row nowrap;
+}
+            .logo {
+                background: #FF7878;
+                flex: 1 1 auto;
+            }
+
+            .nav {
+                background: #FF7878;
+                flex: 5 1 auto;
+            }
+
+            .social {
+                background: #FF7878;
+                flex: 1 1 auto;
+            }
+
+        .textprincipal {
+            background: #F78812;
+        }
+            h1 {
+                background: #FEE440;
+            }
+
+    .section {
+        background: black;
+        display: flex;
+}
+        .articulos {
+            background: #4B3869;
+            flex: 2 1 auto;
+            display: flex;
+            flex-flow: row wrap;
+        }
+            .article{
+                background: #5C7AEA;
+                flex: 1 1 41%;
+            }
+            .navegacio {
+                background: #A2CDCD;
+                flex: 1 1 100%;
+            }
+        aside {
+            background: #FF5C58;
+            flex: 1 1 auto;
+        }
+            .publicitat {
+                background: #FCFFA6;
+            }
+
+
+    .footer {
+        background: black;
+}
+        .peu {
+            background: #F0A500;
+        }
+
+@media all and (max-width: 800px) {
+    .section{
+        flex-direction: column;
+    }
+
+@media all and (max-width: 600px) {
+        .articulos {
+            flex-direction: column;
+        }
+}
